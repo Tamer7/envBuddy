@@ -1,0 +1,28 @@
+{
+  "name": "envbuddy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "envbuddy": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "variables",
+    "CLI",
+    "configuration",
+    "dotenv",
+    "switch"
+  ],
+  "author": "Tamer Algarmakany <tamerjar@hotmail.com>",
+  "license": "MIT",
+  "description": "A CLI tool for managing and switching between .env files, with backup and validation capabilities.",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0"
+  }
+}
