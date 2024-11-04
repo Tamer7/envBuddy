@@ -20,6 +20,10 @@
   "author": "Tamer Algarmakany <tamerjar@hotmail.com>",
   "license": "MIT",
   "description": "A CLI tool for managing and switching between .env files, with backup and validation capabilities.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tamer7/envBuddy"
+  },
   "dependencies": {
     "commander": "^12.1.0",
     "dotenv": "^16.4.5",
